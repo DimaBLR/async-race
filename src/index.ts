@@ -1,0 +1,20 @@
+import './styles.scss';
+import { HeaderApp } from './modules/header/header';
+import { MainApp } from './modules/main/main';
+import { getRoute } from './modules/router';
+import { ModelApp } from './modules/model';
+import { ControlPanel } from './modules/controlPanel/controlPanel';
+import { CarList } from './modules/carsList/carsList';
+import { Winners } from './modules/winners/winners';
+import { Modal } from './modules/modal/modal';
+
+// export const BASE_HOST = `https://async-race-rs.herokuapp.com`;
+export const BASE_HOST = 'http://127.0.0.1:3000';
+export const model = new ModelApp();
+export const header = new HeaderApp();
+export const main = new MainApp();
+export const control = new ControlPanel();
+export const carList = new CarList();
+export const winners = new Winners();
+export const modal = new Modal();
+getRoute();

@@ -1,0 +1,56 @@
+.control-panel {
+    color: orange;
+    border: 2px solid orange;
+    min-width: 320px;
+    border-radius: 10px;
+    padding: 5px;
+    width: 18%;
+    text-align: center;    
+    margin: 0 auto; 
+    margin-bottom: 2%;   
+}
+
+
+.create-block,
+.update-block,
+.cars-control {
+display: flex;
+align-items: center;
+margin: 1.5% auto;
+justify-content: space-between;
+}
+
+
+.create-block div, 
+.update-block div,
+.cars-control div {
+    color: orange;    
+    margin-right: 1%;
+    background-color: black;
+    border: 2px solid orange;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+.cars-control {
+    margin-top: 2%;
+    padding-top: 2%;
+    border-top: 2px solid orange;
+}
+
+
+input {
+    background-color: orange;
+    outline: none;
+    display: block; 
+    padding: 0.5%;      
+    border-radius: 100px;   
+    text-align: center;    
+}
+
+.input-textset,
+.input-textupdate {
+    width: 40%;
+}

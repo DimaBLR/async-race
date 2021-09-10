@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 20px;  
+  font-family: 'Philosopher', sans-serif;
+  text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+
+h1 {
+  font-size: 22px;
+  color: orange;
+  text-align: center; 
+  margin-bottom: 1%;
+  padding-top: 10px; 
+}
+
+body {
+  user-select: none;
+  font-size: 14px;
+  width: 100%;
+  min-height: 100vh;   
+  color: white;
+  background: #181A1C;  
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.bgvideo {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -9999;
+}
+
+
+
+

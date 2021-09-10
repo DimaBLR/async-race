@@ -1,0 +1,110 @@
+.car-block {    
+    margin-bottom: 1%;
+    margin-left: 2%; 
+    margin-right: 2%;
+    background: rgba(255, 165, 0, 0.3);
+    border-radius: 10px 10px 0 0;
+}
+
+.car-block__control {
+    display:flex;
+    margin-bottom: 0.3%;
+    align-items: center;
+}
+
+.car-block__race {
+    display:flex;
+    border-bottom: 2px solid orange;
+    border-bottom-style: dashed; 
+    height: 30px;  
+}
+
+.car-title {
+    color: orange;
+    text-transform: uppercase;
+}
+
+.car-img {
+    height: 50px;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 199;
+    fill: rgb(224, 222, 0);        
+}
+
+.car-img svg{     
+    height: 70%;      
+}
+
+.flag-img {
+    height: 30px;
+    margin-bottom: 0;
+    right: 17%;
+    position: absolute;
+}
+
+
+.btn-select,
+.btn-remove,
+.btn-start,
+.btn-reset {
+    font-size: 16px;
+    text-transform: uppercase;
+border:2px solid orange;
+background-color: black;
+color: orange;
+padding: 2px;
+border-radius: 5px;
+cursor: pointer;
+margin-right: 1%;
+}
+
+
+.btn-start,
+.btn-reset {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+.disable {
+    pointer-events: none;
+    color: grey !important;
+    border-color: grey !important;
+}
+
+
+
+.get-drive {
+    animation-name: drive;
+    animation-fill-mode: forwards;    
+}
+
+
+@keyframes drive {
+    0% {
+    left: 2%;
+    }
+    100% {
+    left: 83%;
+    }
+}
+
+
+
+
+
+.drive-back {
+    animation-name: driveback;
+    animation-fill-mode: forwards;    
+}
+
+
+@keyframes driveback {
+    0% {
+    left: 83%;
+    }
+    100% {
+    left: 2%;
+    }
+}

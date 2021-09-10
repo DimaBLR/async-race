@@ -1,0 +1,63 @@
+.winners-table {
+  font-size: 17px;
+  width: 50%;
+  min-width: 400px;
+  margin: 0 auto;
+  color: rgb(253, 198, 97);
+}
+
+
+.winners-table h1 {
+    margin-bottom: 3%;
+}
+
+
+.table-line {
+  height: 60px;  
+  display: flex;
+  align-items: center;
+}
+
+.table-line svg {
+  transform: scale(0.5);
+}
+
+.table-line div {
+  width: 20%;
+  white-space: nowrap;
+  text-align: center;
+}
+
+.head-line {
+  height: 20px;
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px;
+    background: black;
+    color: orange;
+    font-size: 0.7rem;
+}
+
+.time-header,
+.wins-header {  
+  cursor: pointer;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Chrome/Safari/Opera */
+  -khtml-user-select: none; /* Konqueror */
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+
+
+.time-header:hover,
+.wins-header:hover {
+    color: rgb(189, 9, 9);
+}
+
+/* .time-header::before,
+.wins-header::before {
+    content: '△▽ ';
+} */
+
